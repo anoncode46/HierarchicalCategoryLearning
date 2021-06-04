@@ -20,7 +20,7 @@ The pickle files contain center covariance values for all layers and hierarchies
 ## Fig. 5 (Unsupervised Metrics: tSNE & KNN)
 The data used to generate Fig. 5 are available for download on Zenodo:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4899908.svg)](https://doi.org/10.5281/zenodo.4899908)
-The data are subsampled (100 samples per time epoch) from the non-linear network trained on the hierarchical dataset. The pickle files contain the data features (across all layers) as well as the computed KNN matrix. 
+The data are subsampled (100 samples per time epoch) from the non-linear network trained on the hierarchical dataset. The pickle files contain the data features (across all layers) as well as the computed KNN matrix. tSNE method was implemented using package [tsne-cuda](https://github.com/CannyLab/tsne-cuda)
 
 
 
