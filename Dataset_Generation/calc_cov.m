@@ -3,6 +3,7 @@
 % covariance
 %
 % Y is n x n
+% From Kemp and Tenenbaum, 2008.
 function Y = calc_cov(data)
     [n,m] = size(data); %n objects by m features
     %Y = (1/m).*data*data';
